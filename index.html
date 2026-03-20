@@ -1,0 +1,1148 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Akshardhama Playschool - A Joyful Start to Lifelong Learning</title>
+    <meta name="description" content="Play-based learning for Playschool, LKG, and UKG in Bengaluru South. Safe, nurturing environment rooted in Indian values.">
+    <link rel="stylesheet" href="styles.css">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@400;600;700&family=Inter:wght@400;500;600&display=swap" rel="stylesheet">
+</head>
+<body>
+    <header class="header">
+        <nav class="nav" role="navigation" aria-label="Main navigation">
+            <div class="nav-container">
+                <div class="logo">
+                    <img src="images/logo.svg" alt="Akshardhama Playschool Logo">
+                </div>
+                <ul class="nav-menu">
+                    <li><a href="#home" class="nav-link active">Home</a></li>
+                    <li><a href="#programs" class="nav-link">Programs</a></li>
+                    <li><a href="#about" class="nav-link">About</a></li>
+                    <li><a href="#admissions" class="nav-link">Admissions</a></li>
+                    <li><a href="#gallery" class="nav-link">Gallery</a></li>
+                    <li><a href="#contact" class="nav-link">Contact</a></li>
+                </ul>
+                <button class="mobile-menu-toggle" aria-label="Toggle mobile menu" id="mobileMenuToggle">
+                    <span></span>
+                    <span></span>
+                    <span></span>
+                </button>
+            </div>
+        </nav>
+    </header>
+
+    <!-- Mobile Menu -->
+    <div class="mobile-menu" id="mobileMenu">
+        <button class="mobile-menu-close" id="mobileMenuClose">&times;</button>
+        <nav class="mobile-menu-nav">
+            <a href="#home" class="nav-link">Home</a>
+            <a href="#programs" class="nav-link">Programs</a>
+            <a href="#about" class="nav-link">About</a>
+            <a href="#admissions" class="nav-link">Admissions</a>
+            <a href="#gallery" class="nav-link">Gallery</a>
+            <a href="#contact" class="nav-link">Contact</a>
+        </nav>
+    </div>
+
+    <main>
+        <!-- Home Section -->
+        <section id="home">
+            <section class="hero">
+                <div class="hero-container">
+                    <div class="hero-content">
+                        <h1 class="hero-title">A Joyful Start to Lifelong Learning</h1>
+                        <p class="hero-subtitle">Play-based learning for Playschool, LKG, and UKG — safe, nurturing, and rooted in Indian values.</p>
+                        <div class="hero-actions">
+                            <a href="#admissions" class="btn btn-primary">Apply Now — Limited seats this term</a>
+                            <a href="#contact" class="btn btn-secondary">Book a Visit</a>
+                        </div>
+                    </div>
+                    <div class="hero-image">
+                        <img src="images/hero-classroom.jpg" alt="Children playing with blocks in a bright classroom">
+                    </div>
+                </div>
+            </section>
+
+            <section class="trust-section">
+                <div class="container">
+                    <div class="trust-grid">
+                        <div class="trust-item">
+                            <div class="trust-icon">
+                                <img src="icons/safety.svg" alt="Safety icon">
+                            </div>
+                            <h3>Safe Environment</h3>
+                            <p>Child-safe infrastructure with CCTV monitoring</p>
+                        </div>
+                        <div class="trust-item">
+                            <div class="trust-icon">
+                                <img src="icons/learning.svg" alt="Learning icon">
+                            </div>
+                            <h3>Play-Based Learning</h3>
+                            <p>Research-backed curriculum for holistic development</p>
+                        </div>
+                        <div class="trust-item">
+                            <div class="trust-icon">
+                                <img src="icons/teachers.svg" alt="Teachers icon">
+                            </div>
+                            <h3>Experienced Teachers</h3>
+                            <p>Trained educators passionate about early learning</p>
+                        </div>
+                    </div>
+                </div>
+            </section>
+        </section>
+
+        <!-- Programs Section -->
+        <section id="programs" class="section-padding">
+            <div class="container">
+                <h2 class="section-title">Our Programs</h2>
+                <div class="programs-grid">
+                    <div class="program-card">
+                        <div class="program-image">
+                            <img src="images/playschool.jpg" alt="Playschool activities">
+                        </div>
+                        <div class="program-content">
+                            <h3>Playschool</h3>
+                            <p>Age 2-3 years</p>
+                            <p>Foundation years with focus on sensory development and social skills through play.</p>
+                            <a href="#playschool-detail" class="btn btn-outline">Learn More</a>
+                        </div>
+                    </div>
+                    <div class="program-card">
+                        <div class="program-image">
+                            <img src="images/lkg.jpg" alt="LKG classroom activities">
+                        </div>
+                        <div class="program-content">
+                            <h3>LKG</h3>
+                            <p>Age 3-4 years</p>
+                            <p>Curiosity through play - building early literacy and numeracy foundations.</p>
+                            <a href="#lkg-detail" class="btn btn-outline">Learn More</a>
+                        </div>
+                    </div>
+                    <div class="program-card">
+                        <div class="program-image">
+                            <img src="images/ukg.jpg" alt="UKG learning activities">
+                        </div>
+                        <div class="program-content">
+                            <h3>UKG</h3>
+                            <p>Age 4-5 years</p>
+                            <p>School readiness with structured learning and creative expression.</p>
+                            <a href="#ukg-detail" class="btn btn-outline">Learn More</a>
+                        </div>
+                    </div>
+                </div>
+
+                <div class="programs-detail" style="margin-top: var(--space-3xl);">
+                    <div id="playschool-detail" class="program-detail-card">
+                        <div class="program-detail-content">
+                            <div class="program-detail-header">
+                                <h2>Playschool</h2>
+                                <span class="age-range">Age 2-3 years</span>
+                            </div>
+                            <p class="program-overview">Foundation years with focus on sensory development, social skills, and emotional growth through guided play and exploration.</p>
+                            
+                            <div class="program-features">
+                                <div class="feature-column">
+                                    <h3>Daily Routine</h3>
+                                    <ul>
+                                        <li>Welcome circle time and songs</li>
+                                        <li>Sensory play and exploration</li>
+                                        <li>Story time and puppet shows</li>
+                                    </ul>
+                                </div>
+                                <div class="feature-column">
+                                    <h3>Learning Outcomes</h3>
+                                    <ul>
+                                        <li>Develop social interaction skills</li>
+                                        <li>Build sensory and motor abilities</li>
+                                        <li>Foster emotional security</li>
+                                    </ul>
+                                </div>
+                            </div>
+                            
+                            <div class="program-meta">
+                                <p class="fee-info"><strong>Fee Range:</strong> ₹8,000 - ₹12,000 per month</p>
+                            </div>
+                        </div>
+                        <div class="program-detail-image">
+                            <img src="images/playschool-detail.jpg" alt="Playschool children engaged in sensory play activities">
+                        </div>
+                    </div>
+
+                    <div id="lkg-detail" class="program-detail-card">
+                        <div class="program-detail-content">
+                            <div class="program-detail-header">
+                                <h2>LKG (Lower Kindergarten)</h2>
+                                <span class="age-range">Age 3-4 years</span>
+                            </div>
+                            <p class="program-overview">Curiosity through play - building early literacy, numeracy, and cognitive foundations while nurturing creativity and independence.</p>
+                            
+                            <div class="program-features">
+                                <div class="feature-column">
+                                    <h3>Daily Routine</h3>
+                                    <ul>
+                                        <li>Phonics and early reading activities</li>
+                                        <li>Number concepts and counting games</li>
+                                        <li>Creative art and expression time</li>
+                                    </ul>
+                                </div>
+                                <div class="feature-column">
+                                    <h3>Learning Outcomes</h3>
+                                    <ul>
+                                        <li>Develop pre-reading and writing skills</li>
+                                        <li>Build mathematical thinking</li>
+                                        <li>Enhance creative expression</li>
+                                    </ul>
+                                </div>
+                            </div>
+                            
+                            <div class="program-meta">
+                                <p class="fee-info"><strong>Fee Range:</strong> ₹10,000 - ₹15,000 per month</p>
+                            </div>
+                        </div>
+                        <div class="program-detail-image">
+                            <img src="images/lkg-detail.jpg" alt="LKG children learning through play and structured activities">
+                        </div>
+                    </div>
+
+                    <div id="ukg-detail" class="program-detail-card">
+                        <div class="program-detail-content">
+                            <div class="program-detail-header">
+                                <h2>UKG (Upper Kindergarten)</h2>
+                                <span class="age-range">Age 4-5 years</span>
+                            </div>
+                            <p class="program-overview">School readiness with structured learning, advanced concepts, and creative expression to prepare children for primary education.</p>
+                            
+                            <div class="program-features">
+                                <div class="feature-column">
+                                    <h3>Daily Routine</h3>
+                                    <ul>
+                                        <li>Reading comprehension and writing practice</li>
+                                        <li>Mathematical operations and problem solving</li>
+                                        <li>Science exploration and experiments</li>
+                                    </ul>
+                                </div>
+                                <div class="feature-column">
+                                    <h3>Learning Outcomes</h3>
+                                    <ul>
+                                        <li>Master foundational literacy skills</li>
+                                        <li>Develop mathematical reasoning</li>
+                                        <li>Build scientific thinking</li>
+                                    </ul>
+                                </div>
+                            </div>
+                            
+                            <div class="program-meta">
+                                <p class="fee-info"><strong>Fee Range:</strong> ₹12,000 - ₹18,000 per month</p>
+                            </div>
+                        </div>
+                        <div class="program-detail-image">
+                            <img src="images/ukg-detail.jpg" alt="UKG children engaged in advanced learning activities">
+                        </div>
+                    </div>
+                </div>
+
+                <section class="enrollment-cta" style="margin-top: var(--space-3xl);">
+                    <div class="container">
+                        <div class="cta-content">
+                            <h2>Choose the Right Program for Your Child</h2>
+                            <p>Our experienced educators will help you find the perfect fit for your child's learning journey.</p>
+                            <div class="cta-actions">
+                                <a href="#admissions" class="btn btn-primary">Apply for Admission</a>
+                                <a href="#contact" class="btn btn-secondary">Schedule a Consultation</a>
+                            </div>
+                        </div>
+                    </div>
+                </section>
+            </div>
+        </section>
+
+        <!-- About Section -->
+        <section id="about" class="section-padding">
+            <div class="container">
+                <h2 class="section-title">About Akshardhama Playschool</h2>
+                <div class="about-content">
+                    <div class="about-text">
+                        <h2>Our Philosophy</h2>
+                        <p>At Akshardhama Playschool, we believe in the power of play-based learning to foster holistic child development. Our approach combines international early childhood education best practices with rich Indian cultural traditions, creating a unique learning environment where children thrive.</p>
+                        
+                        <p>We maintain small group sizes to ensure personalized attention for each child, allowing our experienced educators to understand and nurture individual learning styles. Our child-safe infrastructure with CCTV monitoring provides parents with peace of mind while children explore, learn, and grow in a secure setting.</p>
+                        
+                        <div class="mission-statement">
+                            <h3>Our Mission</h3>
+                            <p class="mission-text">To provide a nurturing, safe, and stimulating environment where children develop a lifelong love for learning through play, creativity, and cultural connection.</p>
+                        </div>
+                    </div>
+                    <div class="about-image">
+                        <img src="images/about-classroom.jpg" alt="Bright, welcoming classroom with children engaged in learning activities">
+                    </div>
+                </div>
+
+                <div class="values-section" style="margin-top: var(--space-3xl);">
+                    <h2 class="section-title">Our Core Values</h2>
+                    <div class="values-grid">
+                        <div class="value-card">
+                            <div class="value-icon">
+                                <img src="icons/play-based.svg" alt="Play-based learning icon">
+                            </div>
+                            <h3>Play-Based Learning</h3>
+                            <p>We believe children learn best through play, exploration, and hands-on experiences.</p>
+                        </div>
+                        <div class="value-card">
+                            <div class="value-icon">
+                                <img src="icons/cultural.svg" alt="Cultural values icon">
+                            </div>
+                            <h3>Indian Cultural Roots</h3>
+                            <p>We celebrate Indian festivals, stories, and traditions to build cultural identity.</p>
+                        </div>
+                        <div class="value-card">
+                            <div class="value-icon">
+                                <img src="icons/safety.svg" alt="Safety icon">
+                            </div>
+                            <h3>Safety First</h3>
+                            <p>Child-safe infrastructure, trained staff, and constant supervision ensure wellbeing.</p>
+                        </div>
+                        <div class="value-card">
+                            <div class="value-icon">
+                                <img src="icons/individual.svg" alt="Individual attention icon">
+                            </div>
+                            <h3>Individual Attention</h3>
+                            <p>Small group sizes allow us to understand and nurture each child's unique potential.</p>
+                        </div>
+                    </div>
+                </div>
+
+                <div class="teachers-section" style="margin-top: var(--space-3xl);">
+                    <h2 class="section-title">Meet Our Teachers</h2>
+                    <div class="teachers-grid">
+                        <div class="teacher-card">
+                            <div class="teacher-image">
+                                <img src="images/teacher-1.jpg" alt="Lead teacher smiling in classroom">
+                            </div>
+                            <div class="teacher-info">
+                                <h3>Ms. Priya Sharma</h3>
+                                <p class="teacher-role">Lead Teacher - Playschool</p>
+                                <p>With 8 years of early childhood education experience, Priya brings warmth and creativity to our youngest learners. She specializes in sensory development and loves incorporating music and movement into daily activities.</p>
+                            </div>
+                        </div>
+                        <div class="teacher-card">
+                            <div class="teacher-image">
+                                <img src="images/teacher-2.jpg" alt="Teacher with children in classroom">
+                            </div>
+                            <div class="teacher-info">
+                                <h3>Ms. Anjali Patel</h3>
+                                <p class="teacher-role">Senior Teacher - LKG</p>
+                                <p>Anjali is passionate about early literacy and numeracy development. With a Master's in Early Childhood Education, she creates engaging learning experiences that make reading and math fun for young children.</p>
+                            </div>
+                        </div>
+                        <div class="teacher-card">
+                            <div class="teacher-image">
+                                <img src="images/teacher-3.jpg" alt="Teacher helping children with activities">
+                            </div>
+                            <div class="teacher-info">
+                                <h3>Ms. Kavita Reddy</h3>
+                                <p class="teacher-role">Head Teacher - UKG</p>
+                                <p>Kavita leads our UKG program with 12 years of experience in preparing children for primary school. She excels in developing school readiness skills while maintaining a joyful, stress-free learning environment.</p>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+
+                <div class="facilities-section" style="margin-top: var(--space-3xl);">
+                    <h2 class="section-title">Our Facilities</h2>
+                    <div class="facilities-content">
+                        <div class="facilities-text">
+                            <p>Our purpose-built playschool is designed with children's needs and safety in mind. Every space is carefully planned to encourage exploration, creativity, and social interaction.</p>
+                            <ul class="facilities-list">
+                                <li>Spacious, air-conditioned classrooms with natural lighting</li>
+                                <li>Child-safe furniture and learning materials</li>
+                                <li>Indoor play area with soft flooring and age-appropriate equipment</li>
+                                <li>Outdoor playground with safety surfaces</li>
+                                <li>Sleep/rest room for younger children</li>
+                                <li>Hygiene stations and child-friendly restrooms</li>
+                                <li>CCTV surveillance in all learning and play areas</li>
+                            </ul>
+                        </div>
+                        <div class="facilities-images">
+                            <img src="images/facility-1.jpg" alt="Bright classroom with learning materials">
+                            <img src="images/facility-2.jpg" alt="Outdoor playground with safety equipment">
+                        </div>
+                    </div>
+                </div>
+
+                <section class="about-cta" style="margin-top: var(--space-3xl);">
+                    <div class="container">
+                        <div class="cta-content">
+                            <h2>Experience the Akshardhama Difference</h2>
+                            <p>Visit us to see how our nurturing environment can help your child thrive and develop a love for learning.</p>
+                            <div class="cta-actions">
+                                <a href="#contact" class="btn btn-primary">Schedule a Visit</a>
+                                <a href="#admissions" class="btn btn-secondary">Learn About Admissions</a>
+                            </div>
+                        </div>
+                    </div>
+                </section>
+            </div>
+        </section>
+
+        <!-- Admissions Section -->
+        <section id="admissions" class="section-padding">
+            <div class="container">
+                <h2 class="section-title">5-Step Admission Process</h2>
+                <div class="process-steps">
+                    <div class="step-card">
+                        <div class="step-number">1</div>
+                        <h3>Inquiry & Visit</h3>
+                        <p>Schedule a school visit to tour our facilities and meet our teachers.</p>
+                    </div>
+                    <div class="step-card">
+                        <div class="step-number">2</div>
+                        <h3>Application Form</h3>
+                        <p>Complete the application form with child and parent details.</p>
+                    </div>
+                    <div class="step-card">
+                        <div class="step-number">3</div>
+                        <h3>Document Submission</h3>
+                        <p>Submit required documents including birth certificate and photos.</p>
+                    </div>
+                    <div class="step-card">
+                        <div class="step-number">4</div>
+                        <h3>Interaction Session</h3>
+                        <p>Informal interaction with the child to assess readiness.</p>
+                    </div>
+                    <div class="step-card">
+                        <div class="step-number">5</div>
+                        <h3>Confirmation</h3>
+                        <p>Receive admission confirmation and complete fee payment.</p>
+                    </div>
+                </div>
+
+                <div class="admission-form-section" style="margin-top: var(--space-3xl);">
+                    <div class="form-container">
+                        <h2>Application Form</h2>
+                        <p class="form-intro">Fill out the form below to begin your child's admission journey.</p>
+                        
+                        <form class="admission-form" action="#" method="POST" id="admissionForm">
+                            <div class="form-section">
+                                <h3>Child Information</h3>
+                                <div class="form-row">
+                                    <div class="form-group">
+                                        <label for="childName">Child's Full Name *</label>
+                                        <input type="text" id="childName" name="childName" required placeholder="Enter child's full name">
+                                        <span class="error-message" id="childNameError"></span>
+                                    </div>
+                                    <div class="form-group">
+                                        <label for="childAge">Age *</label>
+                                        <input type="number" id="childAge" name="childAge" required min="2" max="5" placeholder="Age in years">
+                                        <span class="error-message" id="childAgeError"></span>
+                                    </div>
+                                </div>
+                                <div class="form-row">
+                                    <div class="form-group">
+                                        <label for="program">Program Interested *</label>
+                                        <select id="program" name="program" required>
+                                            <option value="">Select a program</option>
+                                            <option value="playschool">Playschool (Age 2-3)</option>
+                                            <option value="lkg">LKG (Age 3-4)</option>
+                                            <option value="ukg">UKG (Age 4-5)</option>
+                                        </select>
+                                        <span class="error-message" id="programError"></span>
+                                    </div>
+                                    <div class="form-group">
+                                        <label for="dob">Date of Birth *</label>
+                                        <input type="date" id="dob" name="dob" required>
+                                        <span class="error-message" id="dobError"></span>
+                                    </div>
+                                </div>
+                            </div>
+
+                            <div class="form-section">
+                                <h3>Parent/Guardian Information</h3>
+                                <div class="form-row">
+                                    <div class="form-group">
+                                        <label for="parentName">Parent/Guardian Name *</label>
+                                        <input type="text" id="parentName" name="parentName" required placeholder="Enter your full name">
+                                        <span class="error-message" id="parentNameError"></span>
+                                    </div>
+                                    <div class="form-group">
+                                        <label for="relationship">Relationship to Child *</label>
+                                        <select id="relationship" name="relationship" required>
+                                            <option value="">Select relationship</option>
+                                            <option value="mother">Mother</option>
+                                            <option value="father">Father</option>
+                                            <option value="guardian">Guardian</option>
+                                        </select>
+                                        <span class="error-message" id="relationshipError"></span>
+                                    </div>
+                                </div>
+                                <div class="form-row">
+                                    <div class="form-group">
+                                        <label for="email">Email Address *</label>
+                                        <input type="email" id="email" name="email" required placeholder="your.email@example.com">
+                                        <span class="error-message" id="emailError"></span>
+                                    </div>
+                                    <div class="form-group">
+                                        <label for="phone">Phone Number *</label>
+                                        <input type="tel" id="phone" name="phone" required placeholder="+91 98765 43210">
+                                        <span class="error-message" id="phoneError"></span>
+                                    </div>
+                                </div>
+                            </div>
+
+                            <div class="form-section">
+                                <h3>Additional Information</h3>
+                                <div class="form-group">
+                                    <label for="address">Residential Address *</label>
+                                    <textarea id="address" name="address" required placeholder="Enter your complete address" rows="3"></textarea>
+                                    <span class="error-message" id="addressError"></span>
+                                </div>
+                                <div class="form-group">
+                                    <label for="message">Additional Comments or Questions</label>
+                                    <textarea id="message" name="message" placeholder="Any specific requirements or questions you may have..." rows="3"></textarea>
+                                </div>
+                            </div>
+
+                            <div class="form-actions">
+                                <button type="submit" class="btn btn-primary btn-large">Submit Application</button>
+                                <button type="reset" class="btn btn-outline">Clear Form</button>
+                            </div>
+                        </form>
+
+                        <div id="successMessage" class="success-message" style="display: none;">
+                            <h3>Application Submitted Successfully!</h3>
+                            <p>Thanks! We'll call you within 24 hours to confirm your visit.</p>
+                        </div>
+                    </div>
+                </div>
+
+                <div class="documents-section" style="margin-top: var(--space-3xl);">
+                    <h2 class="section-title">Required Documents</h2>
+                    <div class="documents-grid">
+                        <div class="document-card">
+                            <div class="document-icon">
+                                <img src="icons/birth-certificate.svg" alt="Birth certificate icon">
+                            </div>
+                            <h3>Birth Certificate</h3>
+                            <p>Original and photocopy of the child's birth certificate</p>
+                        </div>
+                        <div class="document-card">
+                            <div class="document-icon">
+                                <img src="icons/photos.svg" alt="Photos icon">
+                            </div>
+                            <h3>Photographs</h3>
+                            <p>4 passport size photographs of the child</p>
+                        </div>
+                        <div class="document-card">
+                            <div class="document-icon">
+                                <img src="icons/medical.svg" alt="Medical records icon">
+                            </div>
+                            <h3>Medical Records</h3>
+                            <p>Vaccination certificate and medical fitness certificate</p>
+                        </div>
+                        <div class="document-card">
+                            <div class="document-icon">
+                                <img src="icons/parent-id.svg" alt="Parent ID icon">
+                            </div>
+                            <h3>Parent ID</h3>
+                            <p>Photocopy of parent's ID proof (Aadhar/Passport)</p>
+                        </div>
+                    </div>
+                </div>
+
+                <div class="fee-structure" style="margin-top: var(--space-3xl);">
+                    <h2 class="section-title">Fee Structure</h2>
+                    <div class="fee-content">
+                        <div class="fee-table">
+                            <table>
+                                <thead>
+                                    <tr>
+                                        <th>Program</th>
+                                        <th>Age Group</th>
+                                        <th>Monthly Fee</th>
+                                        <th>Admission Fee</th>
+                                    </tr>
+                                </thead>
+                                <tbody>
+                                    <tr>
+                                        <td>Playschool</td>
+                                        <td>2-3 years</td>
+                                        <td>₹8,000 - ₹12,000</td>
+                                        <td>₹15,000</td>
+                                    </tr>
+                                    <tr>
+                                        <td>LKG</td>
+                                        <td>3-4 years</td>
+                                        <td>₹10,000 - ₹15,000</td>
+                                        <td>₹20,000</td>
+                                    </tr>
+                                    <tr>
+                                        <td>UKG</td>
+                                        <td>4-5 years</td>
+                                        <td>₹12,000 - ₹18,000</td>
+                                        <td>₹25,000</td>
+                                    </tr>
+                                </tbody>
+                            </table>
+                        </div>
+                        <div class="fee-info">
+                            <h3>Fee Includes:</h3>
+                            <ul>
+                                <li>Academic materials and books</li>
+                                <li>Stationery and art supplies</li>
+                                <li>Uniform (2 sets)</li>
+                                <li>Annual health check-up</li>
+                                <li>Participation in school events</li>
+                            </ul>
+                            <p class="fee-note"><strong>Note:</strong> Transportation and meals are available at additional cost. Please contact us for detailed fee breakdown.</p>
+                        </div>
+                    </div>
+                </div>
+
+                <section class="admissions-cta" style="margin-top: var(--space-3xl);">
+                    <div class="container">
+                        <div class="cta-content">
+                            <h2>Have Questions?</h2>
+                            <p>Our admissions team is here to help you through every step of the process.</p>
+                            <div class="cta-actions">
+                                <a href="#contact" class="btn btn-primary">Contact Admissions</a>
+                                <a href="tel:+918012345678" class="btn btn-secondary">Call Us Now</a>
+                            </div>
+                        </div>
+                    </div>
+                </section>
+            </div>
+        </section>
+
+        <!-- Gallery Section -->
+        <section id="gallery" class="section-padding">
+            <div class="container">
+                <h2 class="section-title">Gallery</h2>
+                <div class="gallery-intro" style="text-align: center; margin-bottom: var(--space-xl);">
+                    <p>Welcome to our gallery! Here you can see the joyful learning experiences, creative activities, and special moments that make Akshardhama Playschool a special place for children to grow and learn.</p>
+                </div>
+
+                <div class="gallery-filters">
+                    <button class="filter-btn active" data-filter="all">All Photos</button>
+                    <button class="filter-btn" data-filter="classroom">Classroom</button>
+                    <button class="filter-btn" data-filter="playground">Playground</button>
+                    <button class="filter-btn" data-filter="activities">Activities</button>
+                    <button class="filter-btn" data-filter="events">Events</button>
+                </div>
+
+                <div class="gallery-grid">
+                    <div class="gallery-item" data-category="classroom">
+                        <div class="gallery-image">
+                            <img src="images/gallery/classroom-1.jpg" alt="Children engaged in learning activities in bright classroom">
+                            <div class="gallery-overlay">
+                                <h3>Learning Through Play</h3>
+                                <p>Interactive classroom sessions</p>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="gallery-item" data-category="playground">
+                        <div class="gallery-image">
+                            <img src="images/gallery/playground-1.jpg" alt="Children playing in outdoor playground with colorful equipment">
+                            <div class="gallery-overlay">
+                                <h3>Outdoor Fun</h3>
+                                <p>Physical development through play</p>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="gallery-item" data-category="activities">
+                        <div class="gallery-image">
+                            <img src="images/gallery/art-1.jpg" alt="Children engaged in art and craft activities">
+                            <div class="gallery-overlay">
+                                <h3>Creative Expression</h3>
+                                <p>Art and craft sessions</p>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="gallery-item" data-category="classroom">
+                        <div class="gallery-image">
+                            <img src="images/gallery/story-time.jpg" alt="Teacher reading stories to children during circle time">
+                            <div class="gallery-overlay">
+                                <h3>Story Time</h3>
+                                <p>Developing language skills</p>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="gallery-item" data-category="activities">
+                        <div class="gallery-image">
+                            <img src="images/gallery/science.jpg" alt="Children doing simple science experiments">
+                            <div class="gallery-overlay">
+                                <h3>Little Scientists</h3>
+                                <p>Hands-on science exploration</p>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="gallery-item" data-category="events">
+                        <div class="gallery-image">
+                            <img src="images/gallery/festival.jpg" alt="Children celebrating Indian festival with traditional dress">
+                            <div class="gallery-overlay">
+                                <h3>Cultural Celebrations</h3>
+                                <p>Festival celebrations and traditions</p>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="gallery-item" data-category="playground">
+                        <div class="gallery-image">
+                            <img src="images/gallery/outdoor-play.jpg" alt="Children playing with balls and outdoor toys">
+                            <div class="gallery-overlay">
+                                <h3>Active Play</h3>
+                                <p>Developing motor skills</p>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="gallery-item" data-category="classroom">
+                        <div class="gallery-image">
+                            <img src="images/gallery/learning-centers.jpg" alt="Children at different learning centers in classroom">
+                            <div class="gallery-overlay">
+                                <h3>Learning Centers</h3>
+                                <p>Exploring different activities</p>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="gallery-item" data-category="activities">
+                        <div class="gallery-image">
+                            <img src="images/gallery/music.jpg" alt="Children playing musical instruments and singing">
+                            <div class="gallery-overlay">
+                                <h3>Music & Movement</h3>
+                                <p>Rhythm and expression</p>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="gallery-item" data-category="events">
+                        <div class="gallery-image">
+                            <img src="images/gallery/sports-day.jpg" alt="Children participating in sports day activities">
+                            <div class="gallery-overlay">
+                                <h3>Sports Day</h3>
+                                <p>Annual sports celebrations</p>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="gallery-item" data-category="classroom">
+                        <div class="gallery-image">
+                            <img src="images/gallery/teachers.jpg" alt="Teachers helping children with activities">
+                            <div class="gallery-overlay">
+                                <h3>Dedicated Teachers</h3>
+                                <p>Personal attention and care</p>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="gallery-item" data-category="activities">
+                        <div class="gallery-image">
+                            <img src="images/gallery/drama.jpg" alt="Children performing in drama and role-play activities">
+                            <div class="gallery-overlay">
+                                <h3>Drama & Role Play</h3>
+                                <p>Building confidence and creativity</p>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+
+                <div class="video-section" style="margin-top: var(--space-3xl);">
+                    <h2 class="section-title">School Tour Video</h2>
+                    <div class="video-container">
+                        <div class="video-placeholder" id="videoPlayBtn">
+                            <img src="images/video-thumbnail.jpg" alt="Video thumbnail of school tour">
+                            <div class="video-play-button">
+                                <img src="icons/play-button.svg" alt="Play button">
+                            </div>
+                            <p>Watch our virtual school tour to see our facilities and learning environment</p>
+                        </div>
+                    </div>
+                </div>
+
+                <section class="gallery-cta" style="margin-top: var(--space-3xl);">
+                    <div class="container">
+                        <div class="cta-content">
+                            <h2>See Our Learning Environment in Person</h2>
+                            <p>Photos are wonderful, but experiencing our vibrant learning community in person is even better. Schedule a visit to see how we nurture young minds.</p>
+                            <div class="cta-actions">
+                                <a href="#contact" class="btn btn-primary">Book a School Visit</a>
+                                <a href="#admissions" class="btn btn-secondary">Apply for Admission</a>
+                            </div>
+                        </div>
+                    </div>
+                </section>
+            </div>
+        </section>
+
+        <!-- Contact Section -->
+        <section id="contact" class="section-padding">
+            <div class="container">
+                <h2 class="section-title">Contact Us</h2>
+                <div class="contact-info-section">
+                    <div class="contact-grid">
+                        <div class="contact-card">
+                            <div class="contact-icon">
+                                <img src="icons/location.svg" alt="Location icon">
+                            </div>
+                            <h3>Visit Us</h3>
+                            <address>
+                                <p>123 School Road, Bengaluru South<br>
+                                Karnataka 560001, India</p>
+                            </address>
+                            <a href="#" class="btn-link">Get Directions →</a>
+                        </div>
+                        <div class="contact-card">
+                            <div class="contact-icon">
+                                <img src="icons/phone.svg" alt="Phone icon">
+                            </div>
+                            <h3>Call Us</h3>
+                            <p>
+                                <a href="tel:+918012345678">+91 80 1234 5678</a><br>
+                                <a href="tel:+919876543210">+91 98765 43210</a>
+                            </p>
+                            <p class="contact-hours">Mon-Fri: 8:30 AM - 4:30 PM<br>Sat: 9:00 AM - 1:00 PM</p>
+                        </div>
+                        <div class="contact-card">
+                            <div class="contact-icon">
+                                <img src="icons/email.svg" alt="Email icon">
+                            </div>
+                            <h3>Email Us</h3>
+                            <p>
+                                <a href="mailto:info@akshardhama.com">info@akshardhama.com</a><br>
+                                <a href="mailto:admissions@akshardhama.com">admissions@akshardhama.com</a>
+                            </p>
+                            <p class="contact-note">We respond within 24 hours</p>
+                        </div>
+                    </div>
+                </div>
+
+                <div class="contact-form-section" style="margin-top: var(--space-3xl);">
+                    <div class="contact-content">
+                        <div class="contact-form-container">
+                            <h2>Send Us a Message</h2>
+                            <p class="form-intro">Have questions about our programs or want to schedule a visit? Fill out the form below and we'll get back to you soon.</p>
+                            
+                            <form class="contact-form" action="#" method="POST" id="contactForm">
+                                <div class="form-row">
+                                    <div class="form-group">
+                                        <label for="name">Your Name *</label>
+                                        <input type="text" id="name" name="name" required placeholder="Enter your full name">
+                                        <span class="error-message" id="nameError"></span>
+                                    </div>
+                                    <div class="form-group">
+                                        <label for="contactEmail">Email Address *</label>
+                                        <input type="email" id="contactEmail" name="contactEmail" required placeholder="your.email@example.com">
+                                        <span class="error-message" id="contactEmailError"></span>
+                                    </div>
+                                </div>
+                                <div class="form-row">
+                                    <div class="form-group">
+                                        <label for="contactPhone">Phone Number *</label>
+                                        <input type="tel" id="contactPhone" name="contactPhone" required placeholder="+91 98765 43210">
+                                        <span class="error-message" id="contactPhoneError"></span>
+                                    </div>
+                                    <div class="form-group">
+                                        <label for="subject">Subject *</label>
+                                        <select id="subject" name="subject" required>
+                                            <option value="">Select a subject</option>
+                                            <option value="admissions">Admissions Inquiry</option>
+                                            <option value="visit">Schedule a Visit</option>
+                                            <option value="programs">Program Information</option>
+                                            <option value="fees">Fee Structure</option>
+                                            <option value="general">General Question</option>
+                                        </select>
+                                        <span class="error-message" id="subjectError"></span>
+                                    </div>
+                                </div>
+                                <div class="form-group">
+                                    <label for="contactMessage">Message *</label>
+                                    <textarea id="contactMessage" name="contactMessage" required placeholder="Tell us more about your inquiry or questions..." rows="5"></textarea>
+                                    <span class="error-message" id="contactMessageError"></span>
+                                </div>
+                                <div class="form-actions">
+                                    <button type="submit" class="btn btn-primary btn-large">Send Message</button>
+                                    <button type="reset" class="btn btn-outline">Clear Form</button>
+                                </div>
+                            </form>
+
+                            <div id="contactSuccessMessage" class="success-message" style="display: none;">
+                                <h3>Message Sent Successfully!</h3>
+                                <p>Thank you for contacting us. We'll get back to you within 24 hours.</p>
+                            </div>
+                        </div>
+
+                        <div class="visit-info">
+                            <h2>Schedule a Visit</h2>
+                            <p>The best way to experience our learning environment is to visit us in person. We welcome prospective parents to tour our facilities, meet our teachers, and see our programs in action.</p>
+                            
+                            <div class="visit-highlights">
+                                <div class="highlight-item">
+                                    <img src="icons/tour.svg" alt="School tour icon">
+                                    <h3>School Tour</h3>
+                                    <p>Guided tour of classrooms, playground, and facilities</p>
+                                </div>
+                                <div class="highlight-item">
+                                    <img src="icons/meet-teachers.svg" alt="Meet teachers icon">
+                                    <h3>Meet Teachers</h3>
+                                    <p>Interact with our experienced teaching staff</p>
+                                </div>
+                                <div class="highlight-item">
+                                    <img src="icons/observe-class.svg" alt="Observe class icon">
+                                    <h3>Observe Classes</h3>
+                                    <p>See our play-based learning approach in action</p>
+                                </div>
+                            </div>
+
+                            <div class="visit-schedule">
+                                <h3>Visit Schedule</h3>
+                                <ul>
+                                    <li><strong>Monday to Friday:</strong> 9:00 AM - 11:00 AM</li>
+                                    <li><strong>Saturday:</strong> 10:00 AM - 12:00 PM</li>
+                                    <li><strong>Sunday:</strong> Closed</li>
+                                </ul>
+                                <p class="visit-note"><strong>Please note:</strong> Visits should be scheduled in advance to ensure we can give you our full attention.</p>
+                            </div>
+
+                            <div class="quick-visit-actions">
+                                <a href="tel:+918012345678" class="btn btn-primary">Call to Schedule</a>
+                                <a href="#admissions" class="btn btn-secondary">Apply Now</a>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+
+                <div class="map-section" style="margin-top: var(--space-3xl);">
+                    <h2 class="section-title">Find Us</h2>
+                    <div class="map-container">
+                        <div class="map-placeholder">
+                            <img src="images/map-placeholder.jpg" alt="Map showing location of Akshardhama Playschool">
+                            <div class="map-overlay">
+                                <h3>Akshardhama Playschool</h3>
+                                <p>123 School Road, Bengaluru South<br>Karnataka 560001</p>
+                                <a href="#" class="btn btn-outline">Get Directions</a>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+
+                <div class="faq-section" style="margin-top: var(--space-3xl);">
+                    <h2 class="section-title">Frequently Asked Questions</h2>
+                    <div class="faq-grid">
+                        <div class="faq-item">
+                            <h3>What is the student-teacher ratio?</h3>
+                            <p>We maintain a low student-teacher ratio of 1:15 for Playschool, 1:20 for LKG, and 1:25 for UKG to ensure personalized attention.</p>
+                        </div>
+                        <div class="faq-item">
+                            <h3>Do you provide transportation?</h3>
+                            <p>Yes, we offer safe and reliable transportation services with trained drivers and attendants. Please contact us for route details and fees.</p>
+                        </div>
+                        <div class="faq-item">
+                            <h3>What are the school timings?</h3>
+                            <p>Playschool: 9:00 AM - 12:00 PM, LKG: 9:00 AM - 1:00 PM, UKG: 9:00 AM - 2:00 PM. Daycare facilities available until 6:00 PM.</p>
+                        </div>
+                        <div class="faq-item">
+                            <h3>Is there a waiting list?</h3>
+                            <p>Admissions are subject to availability. We recommend applying early as seats fill up quickly. Contact us for current availability.</p>
+                        </div>
+                        <div class="faq-item">
+                            <h3>What safety measures are in place?</h3>
+                            <p>We have CCTV surveillance, child-safe infrastructure, trained staff, first-aid facilities, and strict pickup/drop-off protocols.</p>
+                        </div>
+                        <div class="faq-item">
+                            <h3>Do you serve meals?</h3>
+                            <p>Yes, we provide nutritious meals and snacks prepared in our hygienic kitchen. Menu is designed by child nutrition experts.</p>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </section>
+
+        <section class="cta-section">
+            <div class="container">
+                <div class="cta-content">
+                    <h2>Ready to Begin Your Child's Learning Journey?</h2>
+                    <p>Join our nurturing community where every child thrives through play-based learning.</p>
+                    <div class="cta-actions">
+                        <a href="#admissions" class="btn btn-primary btn-large">Apply Now</a>
+                        <a href="#contact" class="btn btn-secondary btn-large">Schedule a Visit</a>
+                    </div>
+                </div>
+            </div>
+        </section>
+    </main>
+
+    <footer class="footer">
+        <div class="container">
+            <div class="footer-content">
+                <div class="footer-section">
+                    <div class="footer-logo">
+                        <img src="images/logo.svg" alt="Akshardhama Playschool Logo">
+                    </div>
+                    <p>Nurturing young minds through play-based learning in a safe, caring environment.</p>
+                </div>
+                <div class="footer-section">
+                    <h4>Quick Links</h4>
+                    <ul>
+                        <li><a href="#programs">Programs</a></li>
+                        <li><a href="#about">About Us</a></li>
+                        <li><a href="#admissions">Admissions</a></li>
+                        <li><a href="#gallery">Gallery</a></li>
+                    </ul>
+                </div>
+                <div class="footer-section">
+                    <h4>Contact Info</h4>
+                    <address>
+                        <p>123 School Road, Bengaluru South<br>
+                        Karnataka 560001</p>
+                        <p>Phone: +91 80 1234 5678<br>
+                        Email: info@akshardhama.com</p>
+                    </address>
+                </div>
+            </div>
+            <div class="footer-bottom">
+                <p>&copy; 2024 Akshardhama Playschool. All rights reserved.</p>
+            </div>
+        </div>
+    </footer>
+
+    <script>
+        document.addEventListener('DOMContentLoaded', function() {
+            // Mobile Menu Toggle
+            const mobileMenuToggle = document.getElementById('mobileMenuToggle');
+            const mobileMenuClose = document.getElementById('mobileMenuClose');
+            const mobileMenu = document.getElementById('mobileMenu');
+            const mobileLinks = mobileMenu.querySelectorAll('.nav-link');
+
+            function toggleMenu() {
+                mobileMenu.classList.toggle('active');
+                document.body.style.overflow = mobileMenu.classList.contains('active') ? 'hidden' : '';
+            }
+
+            mobileMenuToggle.addEventListener('click', toggleMenu);
+            mobileMenuClose.addEventListener('click', toggleMenu);
+            mobileLinks.forEach(link => link.addEventListener('click', toggleMenu));
+
+            // Smooth Scrolling
+            document.querySelectorAll('a[href^="#"]').forEach(anchor => {
+                anchor.addEventListener('click', function (e) {
+                    e.preventDefault();
+                    const targetId = this.getAttribute('href');
+                    const targetElement = document.querySelector(targetId);
+                    
+                    if (targetElement) {
+                        targetElement.scrollIntoView({
+                            behavior: 'smooth'
+                        });
+                    }
+                });
+            });
+
+            // Active Link Highlighting on Scroll
+            const sections = document.querySelectorAll('section[id]');
+            const navLinks = document.querySelectorAll('.nav-menu .nav-link');
+
+            window.addEventListener('scroll', () => {
+                let current = '';
+                sections.forEach(section => {
+                    const sectionTop = section.offsetTop;
+                    const sectionHeight = section.clientHeight;
+                    if (pageYOffset >= (sectionTop - 150)) {
+                        current = section.getAttribute('id');
+                    }
+                });
+
+                navLinks.forEach(link => {
+                    link.classList.remove('active');
+                    if (link.getAttribute('href') === '#' + current) {
+                        link.classList.add('active');
+                    }
+                });
+            });
+
+            // Gallery Filtering
+            const filterButtons = document.querySelectorAll('.filter-btn');
+            const galleryItems = document.querySelectorAll('.gallery-item');
+
+            filterButtons.forEach(button => {
+                button.addEventListener('click', () => {
+                    filterButtons.forEach(btn => btn.classList.remove('active'));
+                    button.classList.add('active');
+
+                    const filter = button.getAttribute('data-filter');
+
+                    galleryItems.forEach(item => {
+                        if (filter === 'all' || item.getAttribute('data-category') === filter) {
+                            item.style.display = 'block';
+                        } else {
+                            item.style.display = 'none';
+                        }
+                    });
+                });
+            });
+
+            // Admission Form Validation & Submission
+            const admissionForm = document.getElementById('admissionForm');
+            if (admissionForm) {
+                admissionForm.addEventListener('submit', function(e) {
+                    e.preventDefault();
+                    
+                    let isValid = true;
+                    const requiredFields = ['childName', 'childAge', 'program', 'dob', 'parentName', 'relationship', 'email', 'phone', 'address'];
+                    
+                    requiredFields.forEach(fieldId => {
+                        const field = document.getElementById(fieldId);
+                        const errorElement = document.getElementById(fieldId + 'Error');
+                        if (errorElement) {
+                            if (!field.value.trim()) {
+                                errorElement.textContent = 'This field is required';
+                                isValid = false;
+                            } else {
+                                errorElement.textContent = '';
+                            }
+                        }
+                    });
+                    
+                    if (isValid) {
+                        admissionForm.style.display = 'none';
+                        document.getElementById('successMessage').style.display = 'block';
+                    }
+                });
+            }
+
+            // Contact Form Validation & Submission
+            const contactForm = document.getElementById('contactForm');
+            if (contactForm) {
+                contactForm.addEventListener('submit', function(e) {
+                    e.preventDefault();
+                    
+                    let isValid = true;
+                    const requiredFields = ['name', 'contactEmail', 'contactPhone', 'subject', 'contactMessage'];
+                    
+                    requiredFields.forEach(fieldId => {
+                        const field = document.getElementById(fieldId);
+                        const errorElement = document.getElementById(fieldId + 'Error');
+                        if (errorElement) {
+                            if (!field.value.trim()) {
+                                errorElement.textContent = 'This field is required';
+                                isValid = false;
+                            } else {
+                                errorElement.textContent = '';
+                            }
+                        }
+                    });
+                    
+                    if (isValid) {
+                        contactForm.style.display = 'none';
+                        document.getElementById('contactSuccessMessage').style.display = 'block';
+                    }
+                });
+            }
+
+            // Video Play Button
+            const videoPlayBtn = document.getElementById('videoPlayBtn');
+            if (videoPlayBtn) {
+                videoPlayBtn.addEventListener('click', () => {
+                    alert('Video would play here. In production, this would open a video player.');
+                });
+            }
+        });
+    </script>
+</body>
+</html>
