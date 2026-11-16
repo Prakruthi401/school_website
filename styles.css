@@ -2437,3 +2437,13 @@ section[id] {
 .mobile-menu-toggle.active span:nth-child(3) {
     transform: rotate(-45deg) translate(7px, -6px);
 }
+
+/* Keep the portfolio demo readable without delayed reveal animations. */
+body::before, body::after { display: none; }
+.hero-title, .hero-subtitle, .hero-actions, .hero-image { animation: none !important; opacity: 1 !important; transform: none !important; }
+.btn-primary { background: #99441e; color: #fff; }
+.btn-secondary { border-color: #99441e; color: #99441e; }
+.hero-image img { width: 100%; height: auto; display: block; }
+@media (prefers-reduced-motion: reduce) {
+    *, *::before, *::after { animation: none !important; transition: none !important; scroll-behavior: auto !important; }
+}
