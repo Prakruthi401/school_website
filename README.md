@@ -1,6 +1,7 @@
+**Live site:** https://prakruthi401.github.io/school_website/
+
 # Playschool Website Concept
 
-**Live site:** https://prakruthi401.github.io/school_website/
 
 A static frontend learning project for a playschool-style website, built with HTML, CSS, and browser JavaScript. It includes program sections, gallery filters, responsive navigation, and client-side form validation.
 

@@ -1080,7 +1080,13 @@ section[id] {
 }
 
 .facilities-list li:before {
-    content: "✓";
+    content: "";
+    width: 6px;
+    height: 11px;
+    border: solid var(--success);
+    border-width: 0 2px 2px 0;
+    transform: rotate(45deg);
+    top: 4px;
     color: var(--success);
     font-weight: bold;
     position: absolute;
@@ -1414,7 +1420,13 @@ section[id] {
 }
 
 .fee-info li:before {
-    content: "✓";
+    content: "";
+    width: 6px;
+    height: 11px;
+    border: solid var(--success);
+    border-width: 0 2px 2px 0;
+    transform: rotate(45deg);
+    top: 4px;
     color: var(--success);
     font-weight: bold;
     position: absolute;
