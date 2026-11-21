@@ -80,7 +80,7 @@ body {
 }
 
 body::before {
-    content: "Akshardhama Learn Play Grow ॐ शान्तिः Explore अ इ क ख ग घ म प न ✿ ❁ ★";
+    content: "Akshardhama Learn Play Grow ॐ शान्तिः Explore अ इ क ख ग घ म प न";
     position: fixed;
     top: -50%; left: -50%;
     width: 200%; height: 200%;
